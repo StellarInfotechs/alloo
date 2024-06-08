@@ -108,7 +108,7 @@
     display: grid;
     align-items: center;
     align-content: center;
-    padding-bottom: 50vh;
+    padding-bottom: 30vh;
     box-sizing: content-box;
     width: auto;
     margin: clamp(7.5rem, 15.625vw, 9.975rem) auto
@@ -117,7 +117,7 @@
 @media(min-width:992px) {
     .page_showcase__LVgh4 {
         min-height: auto;
-        margin-top: clamp(17.5rem, 18.5185185185vw, 23.275rem);
+        margin-top: clamp(8.5rem, 8.5185185185vw, 23.275rem);
         margin-bottom: clamp(17.5rem, 18.5185185185vw, 23.275rem)
     }
 }
@@ -155,8 +155,8 @@
         grid-template-areas: "heading heading" "content image" "stats image";
         grid-template-columns: 2fr 3fr;
         grid-template-rows: auto auto 1fr;
-        margin-top: clamp(8.125rem, 8.5978835979vw, 10.80625rem);
-        margin-bottom: clamp(8.125rem, 8.5978835979vw, 10.80625rem);
+        margin-top: clamp(5.125rem, 5.5978835979vw, 10.80625rem);
+        margin-bottom: clamp(5.125rem, 5.5978835979vw, 10.80625rem);
         gap: clamp(3.125rem, 3.3068783069vw, 4.15625rem)
     }
 }
